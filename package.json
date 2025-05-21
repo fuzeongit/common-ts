@@ -1,0 +1,33 @@
+{
+  "name": "common-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A monorepo for common utilities",
+  "author": "fuzeongit",
+  "license": "MIT",
+  "homepage": "https://github.com/fuzeongit/common-ts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzeongit/common-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fuzeongit/common-ts/issues"
+  },
+  "keywords": ["monorepo", "utilities", "common"],
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@soybeanjs/eslint-config": "1.6.0",
+    "@unocss/eslint-config": "^66.1.2",
+    "eslint": "9.22.0",
+    "eslint-plugin-vue": "10.0.0",
+    "typescript": "5.8.2",
+    "vite": "6.2.2",
+    "vite-plugin-dts": "^3.0.0"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
