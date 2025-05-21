@@ -1,6 +1,11 @@
 {
   "name": "@common-ts/http",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fuzeongit/common-ts.git",
+    "directory": "packages/http"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
